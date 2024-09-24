@@ -1,0 +1,8 @@
+print ("Введіть два числа:")
+a = int(input())
+b = int(input())
+if (a%b==0) or (b%a==0):
+    print("Ці числа кратні")
+else :
+    print("ЦІ числа не кратні")
+
